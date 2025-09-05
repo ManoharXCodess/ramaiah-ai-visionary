@@ -74,9 +74,9 @@ export default {
 					DEFAULT: 'hsl(var(--slate))',
 					light: 'hsl(var(--slate-light))'
 				},
-				teal: {
-					DEFAULT: 'hsl(var(--teal))',
-					light: 'hsl(var(--teal-light))'
+				purple: {
+					DEFAULT: 'hsl(var(--purple))',
+					light: 'hsl(var(--purple-light))'
 				}
 			},
 			backgroundImage: {

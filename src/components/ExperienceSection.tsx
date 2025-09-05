@@ -67,7 +67,7 @@ const ExperienceSection = () => {
                       </div>
                       <div>
                         <h3 className="text-xl font-bold text-navy">{exp.title}</h3>
-                        <p className="text-teal font-semibold">{exp.company}</p>
+                        <p className="text-purple font-semibold">{exp.company}</p>
                       </div>
                     </div>
                     
@@ -82,7 +82,7 @@ const ExperienceSection = () => {
                       </div>
                     </div>
 
-                    <Badge variant="secondary" className="bg-teal text-white">
+                    <Badge variant="secondary" className="bg-purple text-white">
                       {exp.type}
                     </Badge>
                   </div>
@@ -94,7 +94,7 @@ const ExperienceSection = () => {
                       <ul className="space-y-3">
                         {exp.responsibilities.map((responsibility, idx) => (
                           <li key={idx} className="flex items-start gap-3 text-slate">
-                            <div className="w-2 h-2 bg-teal rounded-full mt-2 flex-shrink-0"></div>
+                            <div className="w-2 h-2 bg-purple rounded-full mt-2 flex-shrink-0"></div>
                             <span className="leading-relaxed">{responsibility}</span>
                           </li>
                         ))}
@@ -105,7 +105,7 @@ const ExperienceSection = () => {
                       <h4 className="text-lg font-semibold text-navy mb-4">Technologies Used</h4>
                       <div className="flex flex-wrap gap-2">
                         {exp.technologies.map((tech, idx) => (
-                          <Badge key={idx} variant="outline" className="border-teal text-teal hover:bg-teal hover:text-white transition-smooth">
+                          <Badge key={idx} variant="outline" className="border-purple text-purple hover:bg-purple hover:text-white transition-smooth">
                             {tech}
                           </Badge>
                         ))}

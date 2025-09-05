@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className="flex items-center gap-4">
                   <Button 
                     size="lg" 
-                    className="bg-teal hover:bg-teal-light text-white font-semibold shadow-elegant transition-smooth"
+                    className="bg-purple hover:bg-purple-light text-white font-semibold shadow-elegant transition-smooth"
                   >
                     <Download className="mr-2" size={20} />
                     Download Resume
@@ -37,27 +37,27 @@ const Footer = () => {
                 <h4 className="text-xl font-semibold">Quick Links</h4>
                 <ul className="space-y-3">
                   <li>
-                    <a href="#about" className="text-gray-300 hover:text-teal transition-smooth">
+                    <a href="#about" className="text-gray-300 hover:text-purple-light transition-smooth">
                       About Me
                     </a>
                   </li>
                   <li>
-                    <a href="#experience" className="text-gray-300 hover:text-teal transition-smooth">
+                    <a href="#experience" className="text-gray-300 hover:text-purple-light transition-smooth">
                       Experience
                     </a>
                   </li>
                   <li>
-                    <a href="#skills" className="text-gray-300 hover:text-teal transition-smooth">
+                    <a href="#skills" className="text-gray-300 hover:text-purple-light transition-smooth">
                       Skills
                     </a>
                   </li>
                   <li>
-                    <a href="#projects" className="text-gray-300 hover:text-teal transition-smooth">
+                    <a href="#projects" className="text-gray-300 hover:text-purple-light transition-smooth">
                       Projects
                     </a>
                   </li>
                   <li>
-                    <a href="#education" className="text-gray-300 hover:text-teal transition-smooth">
+                    <a href="#education" className="text-gray-300 hover:text-purple-light transition-smooth">
                       Education
                     </a>
                   </li>
@@ -70,34 +70,34 @@ const Footer = () => {
                 <div className="space-y-4">
                   <a 
                     href="tel:6301300074" 
-                    className="flex items-center gap-3 text-gray-300 hover:text-teal transition-smooth group"
+                    className="flex items-center gap-3 text-gray-300 hover:text-white transition-smooth group"
                   >
-                    <div className="p-2 bg-navy-light rounded-lg group-hover:bg-teal transition-smooth">
+                    <div className="p-2 bg-navy-light rounded-lg group-hover:bg-purple transition-smooth">
                       <Phone size={18} />
                     </div>
-                    <span>+91 6301300074</span>
+                    <span className="group-hover:text-white">+91 6301300074</span>
                   </a>
                   
                   <a 
                     href="mailto:ramaiahkunchala258@gmail.com" 
-                    className="flex items-center gap-3 text-gray-300 hover:text-teal transition-smooth group"
+                    className="flex items-center gap-3 text-gray-300 hover:text-white transition-smooth group"
                   >
-                    <div className="p-2 bg-navy-light rounded-lg group-hover:bg-teal transition-smooth">
+                    <div className="p-2 bg-navy-light rounded-lg group-hover:bg-purple transition-smooth">
                       <Mail size={18} />
                     </div>
-                    <span>ramaiahkunchala258@gmail.com</span>
+                    <span className="group-hover:text-white">ramaiahkunchala258@gmail.com</span>
                   </a>
                   
                   <a 
                     href="http://www.linkedin.com/in/ramaiah-kunchala-65896118b" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 text-gray-300 hover:text-teal transition-smooth group"
+                    className="flex items-center gap-3 text-gray-300 hover:text-white transition-smooth group"
                   >
-                    <div className="p-2 bg-navy-light rounded-lg group-hover:bg-teal transition-smooth">
+                    <div className="p-2 bg-navy-light rounded-lg group-hover:bg-purple transition-smooth">
                       <Linkedin size={18} />
                     </div>
-                    <span>LinkedIn Profile</span>
+                    <span className="group-hover:text-white">LinkedIn Profile</span>
                   </a>
                 </div>
 

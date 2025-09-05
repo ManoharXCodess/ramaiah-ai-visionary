@@ -51,7 +51,7 @@ const EducationSection = () => {
             {/* Education Column */}
             <div className="space-y-8">
               <h3 className="text-2xl font-semibold text-navy mb-6 flex items-center gap-3">
-                <GraduationCap className="text-teal" size={28} />
+                <GraduationCap className="text-purple" size={28} />
                 Academic Background
               </h3>
               
@@ -63,7 +63,7 @@ const EducationSection = () => {
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-2">
-                        <Badge variant="secondary" className="bg-teal text-white">
+                        <Badge variant="secondary" className="bg-purple text-white">
                           {edu.type}
                         </Badge>
                         <div className="flex items-center gap-2 text-sm text-slate-light">
@@ -75,7 +75,7 @@ const EducationSection = () => {
                       <h4 className="text-lg font-semibold text-navy mb-2">
                         {edu.degree}
                       </h4>
-                      <p className="text-teal font-medium mb-4">{edu.institution}</p>
+                      <p className="text-purple font-medium mb-4">{edu.institution}</p>
                       
                       <div>
                         <p className="text-sm font-medium text-slate mb-2">Relevant Coursework:</p>
@@ -96,7 +96,7 @@ const EducationSection = () => {
             {/* Awards Column */}
             <div className="space-y-8">
               <h3 className="text-2xl font-semibold text-navy mb-6 flex items-center gap-3">
-                <Award className="text-teal" size={28} />
+                <Award className="text-purple" size={28} />
                 Awards & Recognition
               </h3>
               
@@ -116,7 +116,7 @@ const EducationSection = () => {
                         </Badge>
                       </div>
                       
-                      <p className="text-teal font-medium mb-3">{award.organization}</p>
+                      <p className="text-purple font-medium mb-3">{award.organization}</p>
                       <p className="text-slate leading-relaxed">{award.description}</p>
                     </div>
                   </div>
@@ -124,7 +124,7 @@ const EducationSection = () => {
               ))}
 
               {/* Additional Recognition Card */}
-              <Card className="p-6 bg-gradient-card border-teal border-2">
+              <Card className="p-6 bg-gradient-card border-purple border-2">
                 <div className="text-center">
                   <div className="text-4xl mb-4">🏆</div>
                   <h4 className="text-xl font-semibold text-navy mb-3">

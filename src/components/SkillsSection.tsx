@@ -28,7 +28,7 @@ const SkillsSection = () => {
     {
       icon: PenTool,
       title: "Annotation Tools",
-      color: "bg-teal-500",
+      color: "bg-purple-500",
       skills: ["CVAT", "Labelbox", "Roboflow", "SuperAnnotate", "Label Studio", "Amazon SageMaker Ground Truth"]
     },
     {
@@ -79,7 +79,7 @@ const SkillsSection = () => {
             {achievements.map((achievement, index) => (
               <Card key={index} className="p-6 text-center bg-white shadow-card hover:shadow-elegant transition-smooth group">
                 <div className="text-3xl mb-2">{achievement.icon}</div>
-                <div className="text-3xl font-bold text-navy mb-2 group-hover:text-teal transition-smooth">
+                <div className="text-3xl font-bold text-navy mb-2 group-hover:text-purple transition-smooth">
                   {achievement.metric}
                 </div>
                 <div className="text-sm text-slate-light font-medium">
@@ -105,7 +105,7 @@ const SkillsSection = () => {
                     <Badge 
                       key={idx} 
                       variant="secondary" 
-                      className="bg-gray-100 text-slate hover:bg-teal hover:text-white transition-smooth cursor-default"
+                      className="bg-gray-100 text-slate hover:bg-purple hover:text-white transition-smooth cursor-default"
                     >
                       {skill}
                     </Badge>
@@ -117,7 +117,7 @@ const SkillsSection = () => {
 
           {/* Additional Skills Note */}
           <div className="mt-12 text-center">
-            <Card className="p-8 bg-gradient-card border-teal border-2">
+            <Card className="p-8 bg-gradient-card border-purple border-2">
               <h3 className="text-2xl font-semibold text-navy mb-4">
                 Specialized Expertise
               </h3>

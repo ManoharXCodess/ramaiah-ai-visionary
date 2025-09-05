@@ -109,7 +109,7 @@ const ProjectsSection = () => {
                       <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                         {project.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start gap-3 text-slate">
-                            <div className="w-2 h-2 bg-teal rounded-full mt-2 flex-shrink-0"></div>
+                            <div className="w-2 h-2 bg-purple rounded-full mt-2 flex-shrink-0"></div>
                             <span className="text-sm leading-relaxed">{feature}</span>
                           </li>
                         ))}
@@ -126,7 +126,7 @@ const ProjectsSection = () => {
                           <Badge 
                             key={idx} 
                             variant="outline" 
-                            className="border-teal text-teal hover:bg-teal hover:text-white transition-smooth text-xs"
+                            className="border-purple text-purple hover:bg-purple hover:text-white transition-smooth text-xs"
                           >
                             {tech}
                           </Badge>
@@ -135,7 +135,7 @@ const ProjectsSection = () => {
                     </div>
 
                     <div className="flex flex-col gap-3">
-                      <Button variant="outline" className="border-teal text-teal hover:bg-teal hover:text-white transition-smooth">
+                      <Button variant="outline" className="border-purple text-purple hover:bg-purple hover:text-white transition-smooth">
                         <ExternalLink className="mr-2" size={16} />
                         View Details
                       </Button>
@@ -152,7 +152,7 @@ const ProjectsSection = () => {
 
           {/* Call to Action */}
           <div className="text-center mt-12">
-            <Card className="p-8 bg-gradient-card border-teal border-2">
+            <Card className="p-8 bg-gradient-card border-purple border-2">
               <h3 className="text-2xl font-semibold text-navy mb-4">
                 Interested in Collaboration?
               </h3>
@@ -160,7 +160,7 @@ const ProjectsSection = () => {
                 I'm always excited to work on innovative AI/ML projects that make a real impact. 
                 Let's discuss how we can build something amazing together.
               </p>
-              <Button size="lg" className="bg-teal hover:bg-teal-light text-white">
+              <Button size="lg" className="bg-purple hover:bg-purple-light text-white">
                 Get In Touch
               </Button>
             </Card>

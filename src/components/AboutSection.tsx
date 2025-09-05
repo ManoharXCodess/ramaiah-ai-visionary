@@ -61,10 +61,10 @@ const AboutSection = () => {
               
               <div className="pt-4">
                 <div className="flex flex-wrap gap-3">
-                  <span className="px-4 py-2 bg-teal text-white rounded-full text-sm font-medium">Python Expert</span>
-                  <span className="px-4 py-2 bg-teal text-white rounded-full text-sm font-medium">Computer Vision</span>
-                  <span className="px-4 py-2 bg-teal text-white rounded-full text-sm font-medium">Deep Learning</span>
-                  <span className="px-4 py-2 bg-teal text-white rounded-full text-sm font-medium">Data Quality</span>
+                  <span className="px-4 py-2 bg-purple text-white rounded-full text-sm font-medium">Python Expert</span>
+                  <span className="px-4 py-2 bg-purple text-white rounded-full text-sm font-medium">Computer Vision</span>
+                  <span className="px-4 py-2 bg-purple text-white rounded-full text-sm font-medium">Deep Learning</span>
+                  <span className="px-4 py-2 bg-purple text-white rounded-full text-sm font-medium">Data Quality</span>
                 </div>
               </div>
             </div>

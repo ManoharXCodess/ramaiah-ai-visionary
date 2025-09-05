@@ -21,9 +21,9 @@ const HeroSection = () => {
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
                   Ramaiah
-                  <span className="block text-teal">Kunchala</span>
+                  <span className="block text-purple">Kunchala</span>
                 </h1>
-                <p className="text-xl lg:text-2xl text-teal-light font-medium">
+                <p className="text-xl lg:text-2xl text-purple-light font-medium">
                   AI/ML Engineer | Computer Vision | Data Annotation Specialist
                 </p>
               </div>
@@ -41,29 +41,29 @@ const HeroSection = () => {
               
               {/* Contact Info */}
               <div className="flex flex-wrap gap-6 text-white">
-                <a href="tel:6301300074" className="flex items-center gap-3 hover:text-teal transition-smooth group">
-                  <div className="p-2 bg-navy-light rounded-lg group-hover:bg-teal transition-smooth">
+                <a href="tel:6301300074" className="flex items-center gap-3 hover:text-purple-light transition-smooth group">
+                  <div className="p-2 bg-navy-light rounded-lg group-hover:bg-purple transition-smooth">
                     <Phone size={18} />
                   </div>
-                  <span className="font-medium">6301300074</span>
+                  <span className="font-medium group-hover:text-white">6301300074</span>
                 </a>
-                <a href="mailto:ramaiahkunchala258@gmail.com" className="flex items-center gap-3 hover:text-teal transition-smooth group">
-                  <div className="p-2 bg-navy-light rounded-lg group-hover:bg-teal transition-smooth">
+                <a href="mailto:ramaiahkunchala258@gmail.com" className="flex items-center gap-3 hover:text-purple-light transition-smooth group">
+                  <div className="p-2 bg-navy-light rounded-lg group-hover:bg-purple transition-smooth">
                     <Mail size={18} />
                   </div>
-                  <span className="font-medium">ramaiahkunchala258@gmail.com</span>
+                  <span className="font-medium group-hover:text-white">ramaiahkunchala258@gmail.com</span>
                 </a>
-                <a href="http://www.linkedin.com/in/ramaiah-kunchala-65896118b" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-teal transition-smooth group">
-                  <div className="p-2 bg-navy-light rounded-lg group-hover:bg-teal transition-smooth">
+                <a href="http://www.linkedin.com/in/ramaiah-kunchala-65896118b" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-purple-light transition-smooth group">
+                  <div className="p-2 bg-navy-light rounded-lg group-hover:bg-purple transition-smooth">
                     <Linkedin size={18} />
                   </div>
-                  <span className="font-medium">LinkedIn Profile</span>
+                  <span className="font-medium group-hover:text-white">LinkedIn Profile</span>
                 </a>
               </div>
               
               {/* CTA Button */}
               <div className="pt-4">
-                <Button size="lg" className="bg-teal hover:bg-teal-light text-white font-semibold px-8 py-3 rounded-lg shadow-elegant transition-smooth">
+                <Button size="lg" className="bg-purple hover:bg-purple-light text-white font-semibold px-8 py-3 rounded-lg shadow-elegant transition-smooth">
                   <Download className="mr-2" size={20} />
                   Download Resume
                 </Button>
@@ -82,7 +82,7 @@ const HeroSection = () => {
                   />
                 </div>
                 {/* Floating accent elements */}
-                <div className="absolute -top-6 -right-6 w-24 h-24 bg-teal rounded-full opacity-20 animate-pulse"></div>
+                <div className="absolute -top-6 -right-6 w-24 h-24 bg-purple rounded-full opacity-20 animate-pulse"></div>
                 <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-accent rounded-full opacity-10 animate-pulse delay-1000"></div>
               </div>
             </div>
